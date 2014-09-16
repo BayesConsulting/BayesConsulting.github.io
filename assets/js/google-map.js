@@ -93,7 +93,7 @@
 			});
 				
 			var mapOptions = {
-				zoom: 15,
+				zoom: 14,
 				scrollwheel: false,
 			    panControl: false,
 			    scaleControl: false,
@@ -111,7 +111,7 @@
 
 		function codeAddress() {
 		
-			var address = "Google New York, 76 Ninth Ave, New York, NY, USA";
+			var address = "University of Texas at Austin, Austin, TX";
 			geocoder.geocode( { 'address': address}, function(results, status) {
 				if (status == google.maps.GeocoderStatus.OK) {
 					map.setCenter(results[0].geometry.location);
