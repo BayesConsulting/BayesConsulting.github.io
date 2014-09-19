@@ -14,30 +14,30 @@ jQuery( function($){
 	/* MAIN NAVIGATION
 	/*---------------------*/
 		
-	$(window).on('scroll', function(){
-		if( $(window).width() > 1024 ) {
-			if( $(document).scrollTop() > 150 ) {
-				$('.navbar').addClass('navbar-light');
-
-			}else {
-				$('.navbar').removeClass('navbar-light');
-			}
-		}
-	});	
-	
-	function toggleNavbar() {
-		if( ($(window).width() > 1024) && ($(document).scrollTop() <= 150) ) {
-			$(".navbar").removeClass("navbar-light");
-		} else {
-			$(".navbar").addClass("navbar-light");
-		}
-	}
-
-	toggleNavbar();
-
-	$(window).resize( function() {
-		toggleNavbar();	
-	});
+//	$(window).on('scroll', function(){
+//		if( $(window).width() > 1024 ) {
+//			if( $(document).scrollTop() > 150 ) {
+//				$('.navbar').addClass('navbar-light');
+//
+//			}else {
+//				$('.navbar').removeClass('navbar-light');
+//			}
+//		}
+//	});	
+//	
+//	function toggleNavbar() {
+//		if( ($(window).width() > 1024) && ($(document).scrollTop() <= 150) ) {
+//			$(".navbar").removeClass("navbar-light");
+//		} else {
+//			$(".navbar").addClass("navbar-light");
+//		}
+//	}
+//
+//	toggleNavbar();
+//
+//	$(window).resize( function() {
+//		toggleNavbar();	
+//	});
 
 	
 

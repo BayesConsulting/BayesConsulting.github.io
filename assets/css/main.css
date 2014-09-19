@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 /* --------------------- */
 .navbar-brand {
   padding: 10px 15px;
+  color: #646464;
 }
 .navbar-brand img {
   width: 74px;
@@ -90,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-transition-timing-function: linear;
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
+    background-color: #ecf0f1 !important;
 }
 
 .navbar-nav {
