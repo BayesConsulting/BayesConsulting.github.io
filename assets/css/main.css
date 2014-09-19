@@ -1,3 +1,29 @@
+/* OUR CUSTOM THINGS */
+h2.hero-heading {
+    color: white !important;   
+    text-shadow: 1px 1px 75px #000000;
+}
+
+.portfolio-company {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 14em;
+}
+
+.portfolio-company img {
+    height: auto;  
+    width: 100%; 
+}
+
+.work-sect {
+    background-color: white !important;   
+}
+
+.twitter {
+    padding-top: 11px;   
+}
+
+
 /* ------------------ BASE STYLES ------------------ */
 html, body {
   height: 100%;
@@ -13,7 +39,8 @@ body {
   line-height: 1.6;
 }
 body.fullscreen-image-background {
-  background-image: url('../img/sliders/slider3.png?1393983498');
+  background-image: url('../img/sliders/slider4_v3.png?1393983498');
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
