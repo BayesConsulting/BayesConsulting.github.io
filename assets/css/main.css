@@ -23,6 +23,16 @@ h2.hero-heading {
     padding-top: 11px;   
 }
 
+.typed-cursor{
+    display: none;
+}
+
+img.logo-img {
+    margin-top: -5px;
+    width: 40px !important;
+    height: 40px !important;
+}
+
 
 /* ------------------ BASE STYLES ------------------ */
 html, body {

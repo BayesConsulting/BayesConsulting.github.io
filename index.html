@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="description" content="Bayes Consulting is a full stack machine learning shop in Austin providing data backed solutions to tough problems.">
-	<meta name="author" content="Bayes.io">
+	<meta name="author" content="Bayes Consulting">
     	<meta http-equiv='Content-Type' content='Type=text/html; charset=utf-8'>
     	<meta name="keywords" content="bayes consulting, data science, austin, consulting, machine learning" />
     	<meta name="robots" content="index" />
@@ -33,11 +33,13 @@
 	<![endif]-->
 
 	<!-- Fav and touch icons -->
+<!--
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-	<link rel="shortcut icon" href="assets/ico/favicon.png">
+-->
+	<link rel="shortcut icon" href="assets/img/logo-50x50.png">
 
 </head>
 <body id="top" class="fullscreen-image-background">
@@ -53,11 +55,9 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a href="index.html" class="navbar-brand">
-                    <span class="lead">Bayes.io</span>
-                    <!-- If we get a logo remove it and put it here
-                        <img src="assets/img/loop-logo.png" alt="Loop Logo" />
-                    -->
-					<h1 class="hide">Bayes.io</h1>
+                        <img class="logo-img" src="assets/img/logo-50x50.png" alt="Bayes Consulting" />
+                    
+					<h1 class="hide">Bayes Consulting</h1>
 				</a>
 			</div>
 			<nav class="navbar-collapse collapse" id="main-nav" role="navigation">
@@ -80,8 +80,8 @@
 			<!-- Hero text -->
 			<div id="slidecaption" class="slide-caption">
 				<div class="hero-text">
-					<h2 class="hero-heading">Bayes.IO</h2>
-					<p>Full stack machine learning</p>
+					<h2 class="hero-heading">Bayes Consulting</h2>
+					<p><span class="solutions-typed"></span> solutions</p>
 				</div>
 			</div>
 			<div class="hero-buttons">
@@ -110,7 +110,7 @@
 						<img src="assets/img/about_v2.png" alt="About Us" class="img-left" />
 						<div class="col-lg-9 col-lg-offset-3">
 							<h3>We love to solve problems</h3>
-							<p>We started Bayes.IO after the realization that the most interesting problems to solve aren't behind laboratory doors or hiding in academic journals. Since we've come together, we've solved problems at every part of the technology stack and in countless disciplines. From predicting happiness to selling concert tickets, we've lost count of the questions we set out to answer.</p>
+							<p>We started Bayes Consulting after the realization that the most interesting problems to solve aren't behind laboratory doors or hiding in academic journals. Since we've come together, we've solved problems at every part of the technology stack and in countless disciplines. From predicting happiness to selling concert tickets, we've lost count of the questions we set out to answer.</p>
 
 							<p>Along the way, we’ve helped businesses learn their customers, enter new countries, and develop new products. Whether you’re a startup that needs a quick solution or a large business that needs a pricing model, we’ve got the background to serve you. Our list of questions to answer is always growing, we’d love your help to add to the list.</p>
 						</div>
@@ -356,6 +356,19 @@
 	<script src="assets/js/jpreloader.min.js"></script>
 	<script src="assets/js/jquery.magnific-popup.min.js"></script>
 	<script src="assets/js/loop.js"></script>
+    <script src="assets/js/typed.js"></script>
+    
+    <script>
+    $(function(){
+        $(".solutions-typed").typed({
+            strings: ["Machine learning", "Full stack", "Let's build"],
+            typeSpeed:70,
+            backDelay: 3000,
+            startDelay: 300,
+            loop: false
+        });
+    });
+    </script>
     
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
